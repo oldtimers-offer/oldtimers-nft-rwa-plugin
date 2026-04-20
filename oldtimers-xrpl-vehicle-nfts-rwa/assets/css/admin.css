@@ -1,0 +1,129 @@
+.oldtimers-xrpl-wrap {
+    margin-top: 20px;
+}
+
+.oldtimers-xrpl-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111827;
+    color: #fff;
+    padding: 24px 28px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.oldtimers-xrpl-header h1 {
+    color: #fff;
+    margin: 0 0 8px 0;
+    font-size: 28px;
+}
+
+.oldtimers-xrpl-header p {
+    margin: 0;
+    opacity: 0.85;
+    font-size: 14px;
+}
+
+.oldtimers-xrpl-badge {
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+.oldtimers-xrpl-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.oldtimers-xrpl-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 22px;
+    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.06);
+    margin-bottom: 20px;
+}
+
+.oldtimers-xrpl-card h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.oldtimers-xrpl-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 320px;
+}
+
+.oldtimers-xrpl-form input[type="number"] {
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+}
+
+.oldtimers-xrpl-btn,
+.oldtimers-xrpl-btn-secondary {
+    border-radius: 10px !important;
+    padding: 8px 14px !important;
+    font-weight: 600 !important;
+}
+
+.oldtimers-xrpl-btn-secondary {
+    background: #f3f4f6 !important;
+    border-color: #d1d5db !important;
+}
+
+.oldtimers-xrpl-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.oldtimers-xrpl-table th {
+    font-weight: 700;
+}
+
+.oldtimers-xrpl-mono {
+    font-family: Consolas, Monaco, monospace;
+    font-size: 12px;
+    word-break: break-all;
+}
+
+.oldtimers-xrpl-pill {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: #eef2ff;
+    color: #3730a3;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.oldtimers-xrpl-pill.success {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.oldtimers-xrpl-btn.loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.oldtimers-xrpl-card:hover {
+    transform: translateY(-2px);
+    transition: 0.2s ease;
+}
+
+@media (max-width: 1100px) {
+    .oldtimers-xrpl-grid {
+        grid-template-columns: 1fr;
+    }
+}
