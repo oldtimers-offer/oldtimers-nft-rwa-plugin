@@ -82,6 +82,7 @@
                     <th>Vehicle ID</th>
                     <th>Vehicle</th>
                     <th>Type</th>
+					<th>Listing</th>
                     <th>Country</th>
                     <th>Status</th>
                     <th>NFT</th>
@@ -109,6 +110,7 @@
                             )); ?></strong>
                         </td>
                         <td data-label="Type"><?php echo esc_html($vehicle->vehicle_type ?: '—'); ?></td>
+						<td data-label="Listing"><?php echo esc_html($vehicle->listing_state ?: '—'); ?></td>
                         <td data-label="Country"><?php echo esc_html($vehicle->country_location ?: '—'); ?></td>
                         <td data-label="Status"><?php echo esc_html($vehicle->post_status ?: '—'); ?></td>
                         <td data-label="NFT">

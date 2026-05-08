@@ -108,7 +108,7 @@ class Oldtimers_XRPL_Admin {
             $wpdb->prepare(
                 "
                 SELECT n.id, n.vehicle_id, n.nft_id, n.tx_hash, n.metadata_url, n.network, n.status, n.minted_at,
-                       v.make_display, v.model_name, v.model_year, v.vehicle_type, v.country_location
+                       v.make_display, v.model_name, v.model_year, v.vehicle_type, v.listing_state, v.country_location
                 FROM {$this->table_name} n
                 LEFT JOIN {$this->vehicle_table} v ON v.vehicle_id = n.vehicle_id
                 ORDER BY n.id DESC
@@ -122,7 +122,7 @@ class Oldtimers_XRPL_Admin {
         $recent_vehicles = $wpdb->get_results(
             $wpdb->prepare(
                 "
-                SELECT vehicle_id, model_year, make_display, model_name, vehicle_type, country_location, post_status
+                SELECT vehicle_id, model_year, make_display, model_name, vehicle_type, listing_state, country_location, post_status
                 FROM {$this->vehicle_table}
                 ORDER BY vehicle_id DESC
                 LIMIT %d OFFSET %d
