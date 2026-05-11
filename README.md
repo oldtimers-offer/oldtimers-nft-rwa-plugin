@@ -4,7 +4,7 @@ To ensure the integrity and trustworthiness of tokenized real-world assets, Oldt
 
 ### 🧩 Overview
 
-A dedicated **WordPress plugin** serves as the bridge between the marketplace and the XRPL NFT infrastructure. This interface allows authorized administrators to selectively mint **Vehicle Passport NFTs** only for verified and approved vehicle listings.
+A dedicated **WordPress plugin** serves as the bridge between the marketplace and the XRPL NFT infrastructure. This interface allows authorized administrators to selectively mint **Digital Vehicle Passport NFTs** only for verified and approved vehicle listings.
 
 This approach prevents unauthorized or low-quality assets from being tokenized, ensuring that every on-chain asset maintains a high standard of authenticity and reliability.
 
